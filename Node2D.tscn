@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://CircleManager.gd" type="Script" id=1]
+
+[node name="CircleManager" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Button" type="Button" parent="."]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = 449.29
+margin_top = 501.39
+margin_right = 563.29
+margin_bottom = 544.39
+text = "Change Positions"
+__meta__ = {
+"_edit_use_anchors_": false
+}
